@@ -22,7 +22,7 @@ countryList.remove("uganda")
 countries =tuple(countryList)
 print(countries)
 
-for i in countries: print(i)
+# for i in countries: print(i)
 
 
 
