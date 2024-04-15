@@ -21,7 +21,7 @@ stack = []
 # print(stack[3])
 
 
-# PUSH FUNCTION
+# PUSH FUNCTION BODY
 def push():
     element = input("Enter the element:")
     stack.append(element)
@@ -33,6 +33,7 @@ def pop_element():
     if not stack:
         print("stack is empty!")
     else:
+        # REMOVING THE ELEMENT FROM THE STACK
         e = stack.pop()
         print("removed element:",e)
         print(stack)
@@ -41,6 +42,7 @@ def pop_element():
 while True:
     print("Select the option 1.push 2.pop 3.quit")
     choice = int(input())
+    # EXECUTE PUSH FUNCTION BODY
     if choice ==1:
         push()
     elif choice ==2:
@@ -53,3 +55,10 @@ while True:
 
 
 
+# stack2 = []
+
+# stack2.push('onion')
+# print(stack2)
+
+# transport={"bus": ["morning","night"],["big","small"]}
+# transport["bus"][0]
