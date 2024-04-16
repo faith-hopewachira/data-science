@@ -1,24 +1,25 @@
-stack = []
+# stack = []
+stack1 = []
 #ADDING THE NUMBERS TO THE STACK
-# stack.append(10)
-# stack.append(20)
-# stack.append(30)
-# stack.append(40)
-# print(stack)
+stack1.append(10)
+stack1.append(20)
+stack1.append(30)
+stack1.append(40)
+print(stack1)
 
-# # #REMOVING NUMBERS FROM THE STACK
-# # stack.pop()
-# # stack.pop()
-# # stack.pop()
-# # stack.pop()
-# # print(stack)
+# # # #REMOVING NUMBERS FROM THE stack1
+# stack1.pop()
+# stack1.pop()
+# stack1.pop()
+# stack1.pop()
+# print(stack1)
 
-# #ACCESSING THE LAST ELEMENTIN THE STACK
-# print(stack[-1])
-# print(stack[0])
-# print(stack[1])
-# print(stack[2])
-# print(stack[3])
+# #ACCESSING THE LAST ELEMENTIN THE stack1
+print(stack1[-1])
+print(stack1[0])
+print(stack1[1])
+print(stack1[2])
+print(stack1[3])
 
 
 # PUSH FUNCTION BODY
@@ -51,6 +52,7 @@ while True:
         break
     else:
         print("Enter the correct operation!")
+
 
 
 
