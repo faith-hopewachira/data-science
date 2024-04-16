@@ -30,3 +30,21 @@ Tuples are more memory efficient.
 Tuples can be used in a dictionary.
 </li>
 </ul>
+
+
+<h2>Queues</h2>
+<p>Queues are used for storing and managing data in a specific order.
+It follows the principle of “First in, First out” (FIFO), where the first element added to the queue is the first one to be removed. 
+</p>
+
+<ul>
+<li>
+A large amount of data can be managed efficiently with ease.Tuples are more memory efficient.
+Tuples can be used in a dictionary.
+Queues are useful when a particular service is used by multiple consumers.
+</li>
+</ul>
+
+
+
+
